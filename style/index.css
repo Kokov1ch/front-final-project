@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+.navbar{
+    position: absolute;
+    width: 600px;
+    height: 24px;
+    /* сверху | справа | снизу | слева */
+    margin: 100px 320px 1156px 791px;
+}
+.content{
+    width: 1280px;
+    height: 1920px;
+    margin: 0 320px;
+    opacity: 0.89;
+    background-color: #000;
+    border-right: 1px #989797;
+    border-left: 1px #989797;
+}
+.btn{
+    //width: auto;
+    display: inline;
+    margin: 0 70px 0 13px;
+    text-shadow: 2px 3px 20px rgba(0, 0, 0, 0.74);
+    font-family: Miratrix;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: right;
+    color: #989797;
+}
+.name{
+    position: absolute;
+    width: 778px;
+    height: 366px;
+    margin: 396px 13px 100px 0;
+    text-shadow: 2px 3px 50px rgba(0, 0, 0, 0.77);
+    font-family: Miratrix;
+    font-size: 163px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.04;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e54545;
+}
