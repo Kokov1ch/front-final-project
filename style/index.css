@@ -1,29 +1,33 @@
 body{
-    background-color: black;
+    background-color: #1e1f29;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin:0;
+    padding: 0;
 }
 ::-webkit-scrollbar {
     width: 0;
 }
-.navbar{
-    position: absolute;
-    width: 600px;
-    height: 24px;
-    /* сверху | справа | снизу | слева */
-    margin: 100px 320px 1156px 791px;
+@font-face {
+    font-family: 'Miratrix', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-.content{
+.container{
+    margin-left: calc((100% - 1280px)/2);
     width: 1280px;
-    height: 1920px;
-    margin: 0 320px;
-    opacity: 0.89;
-    background-color: #000;
-    border-right: 1px #989797;
-    border-left: 1px #989797;
+    background-color: #1e1f29;
+//opacity: 0.89;
 }
-.btn{
-    //width: auto;
-    display: inline;
-    margin: 0 70px 0 13px;
+.navbar{
+    color: #989797;;
+    position: absolute;
+    height: 24px;
+    width: 489px;
+    /* сверху | справа | снизу | слева */
+    margin: 100px 0 1156px 791px;
     text-shadow: 2px 3px 20px rgba(0, 0, 0, 0.74);
     font-family: Miratrix;
     font-size: 20px;
@@ -32,14 +36,22 @@ body{
     font-style: normal;
     line-height: 1.2;
     letter-spacing: normal;
-    text-align: right;
-    color: #989797;
+    text-align: left;
+}
+#about{
+    margin-left: 773px;
+}
+#projects{
+    margin-left: 970px;
+}
+#contacts{
+    margin-left: 1160px;
 }
 .name{
     position: absolute;
     width: 778px;
     height: 366px;
-    margin: 396px 13px 100px 0;
+    margin: 395px 882px 394px 0;
     text-shadow: 2px 3px 50px rgba(0, 0, 0, 0.77);
     font-family: Miratrix;
     font-size: 163px;
@@ -50,4 +62,50 @@ body{
     letter-spacing: normal;
     text-align: left;
     color: #e54545;
+}
+.Kokov1ch{
+    position: absolute;
+    width: 238px;
+    height: 25px;
+    margin: 866px 553px 8px 0;
+    opacity: 0.42;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+.navbar:hover{
+    transition: 0.5s;
+    color: #e54545;
+}
+img.vkontakte {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    /* сверху | справа | снизу | слева */
+    margin: 866px 0 0 1062px;
+    object-fit: contain;
+    opacity: 0.48;
+}
+img.github1 {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    margin: 866px 0 0 1145px;
+    object-fit: contain;
+    opacity: 0.48;
+    border-radius: 33px;
+}
+img.instagram2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin: 872px 0 0 1237px;
+    object-fit: contain;
+    opacity: 0.48;
 }
