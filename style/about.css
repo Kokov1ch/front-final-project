@@ -8,9 +8,6 @@ body{
     margin:0;
     padding: 0;
 }
-::-webkit-scrollbar {
-    width: 0;
-}
 @font-face {
     font-family: 'Miratrix', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -21,11 +18,13 @@ body{
     font-weight: 400;
     src: local('Miratrix'), url('https://fonts.cdnfonts.com/s/49706/MiratrixNormal.woff') format('woff');
 }
+a{
+    text-decoration: none;
+}
 .container{
     margin-left: calc((100% - 1280px)/2);
     width: 1280px;
     background-color: #1e1f29;
-//opacity: 0.89;
 }
 .navbar{
     color: #989797;;
@@ -46,6 +45,7 @@ body{
 }
 #about{
     margin-left: 773px;
+    color: #e54545;
 }
 #projects{
     margin-left: 970px;
@@ -53,24 +53,48 @@ body{
 #contacts{
     margin-left: 1174px;
 }
-a{
-    text-decoration: none;
+.navbar:hover{
+    transition: 0.5s;
+    color: #e54545;
+    cursor: pointer;
 }
 .name{
     position: absolute;
-    width: 778px;
-    height: 366px;
-    margin: 395px 882px 394px 0;
-    text-shadow: 2px 3px 50px rgba(0, 0, 0, 0.77);
+    width: 718px;
+    height: 160px;
+    /* сверху | справа | снизу | слева */
+    margin: 491px 287px 429px 275px;
     font-family: Miratrix;
-    font-size: 163px;
+    font-size: 67px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.04;
+    line-height: 1.19;
     letter-spacing: normal;
     text-align: left;
-    color: #e54545;
+    color: #fff;
+}
+.rectangle{
+    position: absolute;
+    width: 84px;
+    height: 22px;
+    margin: 675px 921px 383px 275px;
+    background-color: #e54545;
+}
+.info{
+    position: absolute;
+    width: 829px;
+    height: 223px;
+    margin: 721px 176px 136px 275px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
 }
 .Kokov1ch{
     position: absolute;
@@ -88,34 +112,10 @@ a{
     text-align: left;
     color: #fff;
 }
-.navbar:hover{
-    transition: 0.5s;
-    color: #e54545;
-    cursor: pointer;
-}
-img.vkontakte {
+.me{
     position: absolute;
-    width: 41px;
-    height: 41px;
-    /* сверху | справа | снизу | слева */
-    margin: 866px 0 0 1062px;
+    width: 275px;
+    height: 367px;
+    margin-top: 124px;
     object-fit: contain;
-    opacity: 0.48;
-}
-img.github1 {
-    position: absolute;
-    width: 41px;
-    height: 41px;
-    margin: 866px 0 0 1145px;
-    object-fit: contain;
-    opacity: 0.48;
-    border-radius: 33px;
-}
-img.instagram2 {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    margin: 872px 0 0 1237px;
-    object-fit: contain;
-    opacity: 0.48;
 }
