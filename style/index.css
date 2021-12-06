@@ -15,6 +15,12 @@ body{
     font-family: 'Miratrix', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
+@font-face {
+    font-family: 'Miratrix';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Miratrix'), url('https://fonts.cdnfonts.com/s/49706/MiratrixNormal.woff') format('woff');
+}
 .container{
     margin-left: calc((100% - 1280px)/2);
     width: 1280px;
@@ -46,6 +52,9 @@ body{
 }
 #contacts{
     margin-left: 1160px;
+}
+a{
+    text-decoration: none;
 }
 .name{
     position: absolute;
