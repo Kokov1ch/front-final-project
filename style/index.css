@@ -91,6 +91,7 @@ a{
 .navbar:hover{
     transition: 0.5s;
     color: #e54545;
+    cursor: pointer;
 }
 img.vkontakte {
     position: absolute;
