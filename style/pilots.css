@@ -9,9 +9,6 @@ body{
     padding: 0;
     user-select: none;
 }
-::-webkit-scrollbar {
-    width: 0;
-}
 @font-face {
     font-family: 'Miratrix', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -22,14 +19,42 @@ body{
     font-weight: 400;
     src: local('Miratrix'), url('https://fonts.cdnfonts.com/s/49706/MiratrixNormal.woff') format('woff');
 }
+a{
+    text-decoration: none;
+}
+.square{
+    overflow: hidden;
+    height: 95px;
+    width: 95px;
+    //border: 1px solid #000000;
+    background-color: #f5a659;
+    margin-bottom: 3px ;
+    //border-radius: 60%;
+}
+.grid{
+    position: absolute;
+    margin-left: calc((100% - 1080px)/2);
+    margin-top: 280px;
+}
+.line1{
+    display: inline-block;
+}
+.line2{
+    display: inline-block;
+}
+.line3 {
+    display: inline-block;
+}
+.line4{
+    display: inline-block;
+}
 .container{
     margin-left: calc((100% - 1280px)/2);
     width: 1280px;
     background-color: #1e1f29;
-//opacity: 0.89;
 }
 .navbar{
-    color: #989797;;
+    color: #989797;
     position: absolute;
     height: 24px;
     width: 489px;
@@ -45,6 +70,11 @@ body{
     letter-spacing: normal;
     text-align: left;
 }
+.navbar:hover{
+    transition: 0.5s;
+    color: #e54545;
+    cursor: pointer;
+}
 #about{
     margin-left: 1174px;
 }
@@ -53,26 +83,6 @@ body{
 }
 #main{
     margin-left: 780px;
-    color: #e54545;
-}
-a{
-    text-decoration: none;
-}
-.name{
-    position: absolute;
-    width: 778px;
-    height: 366px;
-    margin: 395px 882px 394px 0;
-    text-shadow: 2px 3px 50px rgba(0, 0, 0, 0.77);
-    font-family: Miratrix;
-    font-size: 163px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.04;
-    letter-spacing: normal;
-    text-align: left;
-    color: #e54545;
 }
 .Kokov1ch{
     position: absolute;
@@ -90,34 +100,18 @@ a{
     text-align: left;
     color: #fff;
 }
-.navbar:hover{
-    transition: 0.5s;
-    color: #e54545;
-    cursor: pointer;
-}
-img.vkontakte {
+.pilots{
     position: absolute;
-    width: 41px;
-    height: 41px;
-    /* сверху | справа | снизу | слева */
-    margin: 866px 0 0 1062px;
-    object-fit: contain;
-    opacity: 0.48;
-}
-img.github1 {
-    position: absolute;
-    width: 41px;
-    height: 41px;
-    margin: 866px 0 0 1145px;
-    object-fit: contain;
-    opacity: 0.48;
-    border-radius: 33px;
-}
-img.instagram2 {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    margin: 872px 0 0 1237px;
-    object-fit: contain;
-    opacity: 0.48;
+    height: 24px;
+    width: 489px;
+    text-shadow: 2px 3px 20px rgba(0, 0, 0, 0.74);
+    font-family: Miratrix;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 720px;
+    margin-left: 395px;
 }

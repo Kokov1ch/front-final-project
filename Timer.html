@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel = "stylesheet" href="style/Timer.css">
+    <link href="http://fonts.cdnfonts.com/css/miratrix" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,800" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <a href="./index.html" class="navbar" id="main">Главная</a>
+    <a href="./projects.html" class="navbar" id="projects">ПРОЕКТЫ</a>
+    <a href="./about.html" class="navbar" id="about">ОБО МНЕ</a>
+    <div class="inp">
+    <input class="block" id="hours" type="number"  value="0" min="0" >
+    <input class="block" id="minutes" type="number" value="0" min="0" max="59">
+    <input class="block" id="seconds" type="number" value="0" min="1" max="59">
+    </div>
+    <div class="label" id="h"> Часы:</div>
+    <div class="label" id="m">Минуты:</div>
+    <div class="label" id="s">Секунды:</div>
+    <button onclick="start()" id="start">Начать</button>
+    <div class="Kokov1ch"> 2021 © Kokov1ch</div>
+    <div id="time"></div>
+</div>
+</body>
+<script src="script/Timer.js"></script>
+</html>

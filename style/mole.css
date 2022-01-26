@@ -1,0 +1,168 @@
+body{
+    background-color: #1e1f29;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin:0;
+    padding: 0;
+    user-select: none;
+}
+@font-face {
+    font-family: 'Miratrix', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+@font-face {
+    font-family: 'Miratrix';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Miratrix'), url('https://fonts.cdnfonts.com/s/49706/MiratrixNormal.woff') format('woff');
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin-left: calc((100% - 1280px)/2);
+    width: 1280px;
+    background-color: #1e1f29;
+}
+.square{
+    overflow: hidden;
+    height: 95px;
+    width: 95px;
+//border: 1px solid #000000;
+    background-color: #000000;
+    margin-bottom: 3px ;
+//border-radius: 60%;
+}
+.grid{
+    position: absolute;
+    margin-left: calc((100% - 1080px)/2);
+    margin-top: 250px;
+    cursor: pointer;
+}
+.line1{
+    display: inline-block;
+}
+.line2{
+    display: inline-block;
+}
+.line3 {
+    display: inline-block;
+}
+.line4{
+    display: inline-block;
+}
+.score{
+    position: absolute;
+    height: 24px;
+    width: 489px;
+    text-shadow: 2px 3px 20px rgba(0, 0, 0, 0.74);
+    font-family: Miratrix;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    font-size: 32px;
+    color: #ffffff;
+    margin-top: 690px;
+    margin-left: 485px;
+}
+.play{
+    position: absolute;
+    height: 54px;
+    width: 489px;
+    text-shadow: 2px 3px 20px rgba(0, 0, 0, 0.74);
+    font-family: Miratrix;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 170px;
+    margin-left: 385px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.play:hover{
+    color: #e54545;
+    transition: 0.5s;
+}
+.time{
+    position: absolute;
+    height: 154px;
+    width: 489px;
+    text-shadow: 2px 3px 20px rgba(0, 0, 0, 0.74);
+    font-family: Miratrix;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    font-size: 31px;
+    color: #ffffff;
+    margin-top: 170px;
+    margin-left: 385px;
+    border: none;
+    background: none;
+}
+#c{
+    position: absolute;
+    margin-left: 555px;
+    visibility: hidden;
+    height: 90px;
+    width: 140px;
+}
+.mole{
+    height: 95px;
+    width: 95px;
+    //background-size: cover;
+    background-color: #e54545;
+}
+.navbar{
+    color: #989797;
+    position: absolute;
+    height: 24px;
+    width: 489px;
+    /* сверху | справа | снизу | слева */
+    margin: 100px 0 1156px 791px;
+    text-shadow: 2px 3px 20px rgba(0, 0, 0, 0.74);
+    font-family: Miratrix;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+}
+.navbar:hover{
+    transition: 0.5s;
+    color: #e54545;
+    cursor: pointer;
+}
+#about{
+    margin-left: 1174px;
+}
+#projects{
+    margin-left: 970px;
+}
+#main{
+    margin-left: 780px;
+}
+.Kokov1ch{
+    position: absolute;
+    width: 238px;
+    height: 25px;
+    margin: 866px 553px 8px 0;
+    opacity: 0.42;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}

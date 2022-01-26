@@ -9,6 +9,9 @@ body{
     padding: 0;
     user-select: none;
 }
+::-webkit-scrollbar {
+    width: 0;
+}
 @font-face {
     font-family: 'Miratrix', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -23,6 +26,7 @@ body{
     margin-left: calc((100% - 1280px)/2);
     width: 1280px;
     background-color: #1e1f29;
+//opacity: 0.89;
 }
 .navbar{
     color: #989797;;
@@ -30,7 +34,7 @@ body{
     height: 24px;
     width: 489px;
     /* сверху | справа | снизу | слева */
-    margin: 100px 0 956px 791px;
+    margin: 100px 0 1156px 791px;
     text-shadow: 2px 3px 20px rgba(0, 0, 0, 0.74);
     font-family: Miratrix;
     font-size: 20px;
@@ -41,91 +45,22 @@ body{
     letter-spacing: normal;
     text-align: left;
 }
-#about{
-    margin-left: 1174px;
-}
-#projects{
-    margin-left: 970px;
-    color: #e54545;
-}
-#main{
-    margin-left: 780px;
-}
 .navbar:hover{
     transition: 0.5s;
     color: #e54545;
     cursor: pointer;
 }
-.grid{
-    position: absolute;
-    margin-top: 130px;
-    margin-right: 0;
+#about{
+    margin-left: 1174px;
 }
-.block{
-    width: 623px;
-    height: 212px;
-    background-image: linear-gradient(118deg, #2d363d -20%, #1f1f2c 111%);
-    cursor: pointer;
+#projects{
+    margin-left: 970px;
 }
-.block:hover{
-    background-image: linear-gradient(118deg, #3e4552 -20%, #2e2e41 111%);
+#main{
+    margin-left: 780px;
 }
-#mole{
-    position: absolute;
-    margin-top: 130px;
-}
-#mess{
-    position: absolute;
-    margin-top: 130px;
-    margin-left: 657px;
-}
-#pilots{
-    position: absolute;
-    margin-top: 393px;
-}
-#timer{
-    position: absolute;
-    margin-top: 393px;
-    margin-left: 657px;
-}
-.label{
-    /* сверху | справа | снизу | слева */
-    position: absolute;
-    width: 260px;
-    height: 41px;
-    margin: 30px 384px 141px 33px;
-    font-family: Miratrix;
-    font-size: 34px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.21;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-}
-.rectangle{
-    position: absolute;
-    width: 27px;
-    height: 10px;
-    margin: 81px 367px 10px 33px;
-    background-color: #e54545;
-}
-.description{
-    position: absolute;
-    width: 394px;
-    height: 66px;
-    margin-top: 101px;
-    margin-left: 33px;
-    font-family: Montserrat;
-    font-size: 15px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.27;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
+a{
+    text-decoration: none;
 }
 .Kokov1ch{
     position: absolute;
@@ -143,6 +78,102 @@ body{
     text-align: left;
     color: #fff;
 }
-a{
-    text-decoration: none;
+.inp{
+    position: absolute;
+    margin-top: 278px;
+    margin-left: 450px;
+}
+.block{
+    margin-top: 10px;
+    display: block;
+    border: none;
+    width: 423px;
+    height: 45px;
+    background-image: linear-gradient(118deg, #2d363d -20%, #1f1f2c 111%);
+    cursor: pointer;
+
+}
+.label{
+    position: absolute;
+    width: 260px;
+    height: 41px;
+    margin: 30px 384px 141px 33px;
+    font-family: Miratrix;
+    font-size: 34px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+#h{
+    margin-top: 290px;
+    margin-left: 330px;
+}
+#m{
+    margin-top: 347px;
+    margin-left: 290px;
+}
+#s{
+    margin-top: 405px;
+    margin-left: 250px;
+}
+input{
+    font-family: Miratrix;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: white;
+    user-select: none;
+}
+#start{
+    position: absolute;
+    width: 20px;
+    height: 41px;
+    margin-top: 528px;
+    margin-left: 550px;
+    font-family: Miratrix;
+    font-size: 60px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+#start:hover{
+    transition: 0.5s;
+    color: #e54545;
+}
+#time{
+    position: absolute;
+    width: 20px;
+    height: 41px;
+    margin-top: 528px;
+    margin-left: 510px;
+    font-family: Miratrix;
+    font-size: 55px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e54545;
+    visibility: hidden;
+}
+input::-webkit-inner-spin-button {
+   //-webkit-appearance: none;
+    width: 20px;
+    opacity: 1;
+    background-color: #e54545;
+    width: 30px;
+    height: 35px;
 }

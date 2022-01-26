@@ -7,6 +7,7 @@ body{
     background-size: cover;
     margin:0;
     padding: 0;
+    user-select: none;
 }
 @font-face {
     font-family: 'Miratrix', sans-serif;
@@ -27,7 +28,7 @@ a{
     background-color: #1e1f29;
 }
 .navbar{
-    color: #989797;;
+    color: #989797;
     position: absolute;
     height: 24px;
     width: 489px;
@@ -44,14 +45,14 @@ a{
     text-align: left;
 }
 #about{
-    margin-left: 773px;
+    margin-left: 1174px;
     color: #e54545;
 }
 #projects{
     margin-left: 970px;
 }
-#contacts{
-    margin-left: 1174px;
+#main{
+    margin-left: 780px;
 }
 .navbar:hover{
     transition: 0.5s;
@@ -116,6 +117,13 @@ a{
     position: absolute;
     width: 275px;
     height: 367px;
-    margin-top: 124px;
+    margin-top: 150px;
+    object-fit: contain;
+}
+#me{
+    position: absolute;
+    width: 275px;
+    height: 367px;
+    margin-top: 150px;
     object-fit: contain;
 }
