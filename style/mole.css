@@ -31,10 +31,8 @@ a{
     overflow: hidden;
     height: 95px;
     width: 95px;
-//border: 1px solid #000000;
-    background-color: #000000;
+    background-color: #989797;
     margin-bottom: 3px ;
-//border-radius: 60%;
 }
 .grid{
     position: absolute;
