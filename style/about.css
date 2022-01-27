@@ -24,7 +24,7 @@ a{
 }
 .container{
     margin-left: calc((100% - 1280px)/2);
-    width: 1280px;
+    width: 1279px;
     background-color: #1e1f29;
 }
 .navbar{
