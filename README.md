@@ -10,9 +10,11 @@ https://kokov1ch.ml/index.html
 5. Build: `npm run build`
 6. Start: `npm run start`
 # Architecture
-- /dist - сборочная директория
-- /.cache - какой-то кэш
-- /main - главная страница и стиль
-- /node_modules - содержит все установленные зависимости проекта
-- /res - остальные страницы
+- /dist - build directory
+- /.cache - cache directory
+- /img - image files directory
+- /script - .js files directory
+- /sound - sound files directory
+- /style - .css files directory
+- /node_modules - сontains all project dependencies
 Final project
