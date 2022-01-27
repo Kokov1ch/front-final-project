@@ -1,5 +1,5 @@
 # About
-This is my final front end project at university
+This is my final front-end project at university
 <br>
 https://kokov1ch.ml/index.html
 # Installation
@@ -17,4 +17,3 @@ https://kokov1ch.ml/index.html
 - /sound - sound files directory
 - /style - .css files directory
 - /node_modules - сontains all project dependencies
-Final project
