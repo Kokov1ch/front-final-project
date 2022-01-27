@@ -1,7 +1,7 @@
 # About
 This is my final front end project at university
 <br>
-http://kokov1ch.ml/index.html
+https://kokov1ch.ml/index.html
 # Installation
 1. Clone project from GitHub `https://github.com/Kokov1ch/FrontFinalProject`
 2. Install NodeJs `https://nodejs.org/en/`
