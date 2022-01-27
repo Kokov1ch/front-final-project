@@ -4,7 +4,9 @@
 http://kokov1ch.ml/index.html
 # Installation
 1. Clone project from GitHub `https://github.com/Kokov1ch/FrontFinalProject`
-2. Install dependencies from `package.json`
+2. Install
+npm install
+3. Install dependencies from `package.json`
 (Smth like that `"C:\Program Files\nodejs\node.exe" "C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js" install —scripts-prepend-node-path=auto`)
 3. Build: `npm run build`
 4. Start: `npm run start`
