@@ -4,10 +4,11 @@
 http://kokov1ch.ml/index.html
 # Installation
 1. Clone project from GitHub `https://github.com/Kokov1ch/FrontFinalProject`
-2. Install `npm install`
-3. Install dependencies from `package.json`
-4. Build: `npm run build`
-5. Start: `npm run start`
+2. Install NodeJs `https://nodejs.org/en/`
+3. Install `npm install`
+4. Install dependencies from `package.json`
+5. Build: `npm run build`
+6. Start: `npm run start`
 # Architecture
 - /dist - сборочная директория
 - /.cache - какой-то кэш
