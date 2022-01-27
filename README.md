@@ -8,8 +8,6 @@ http://kokov1ch.ml/index.html
 3. Install dependencies from `package.json`
 4. Build: `npm run build`
 5. Start: `npm run start`
-# Known issues
-Со старта есть проблемы с кнопками, в выгруженном на гит виде все ок
 # Architecture
 - /dist - сборочная директория
 - /.cache - какой-то кэш
