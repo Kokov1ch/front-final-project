@@ -1,6 +1,6 @@
 body{
     background-color: #1e1f29;
-    overflow: hidden;
+    //overflow: hidden;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -8,6 +8,9 @@ body{
     margin:0;
     padding: 0;
     user-select: none;
+}
+::-webkit-scrollbar {
+    width: 0;
 }
 @font-face {
     font-family: 'Miratrix', sans-serif;

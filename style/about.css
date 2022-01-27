@@ -1,6 +1,6 @@
 body{
     background-color: #1e1f29;
-    overflow: hidden;
+    //overflow: hidden;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -18,6 +18,9 @@ body{
     font-style: normal;
     font-weight: 400;
     src: local('Miratrix'), url('https://fonts.cdnfonts.com/s/49706/MiratrixNormal.woff') format('woff');
+}
+::-webkit-scrollbar {
+    width: 0;
 }
 a{
     text-decoration: none;
@@ -85,7 +88,7 @@ a{
 .info{
     position: absolute;
     width: 829px;
-    height: 223px;
+    height: 123px;
     margin: 721px 176px 136px 275px;
     font-family: Montserrat;
     font-size: 20px;
