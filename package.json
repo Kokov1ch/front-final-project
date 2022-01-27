@@ -1,0 +1,25 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open --no-cache",
+    "build": "parcel build *.html --no-cache --no-minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kokov1ch/FrontFinalProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kokov1ch/FrontFinalProject/issues"
+  },
+  "homepage": "https://github.com/Kokov1ch/FrontFinalProject#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "parcel": "^2.2.1",
+    "parcel-bundler": "^1.12.5"
+  }
+}
