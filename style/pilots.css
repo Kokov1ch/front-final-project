@@ -33,7 +33,7 @@ a{
 }
 .grid{
     position: absolute;
-    margin-left: calc((100% - 1080px)/2);
+    margin-left: 420px;
     margin-top: 280px;
 }
 .line1{
