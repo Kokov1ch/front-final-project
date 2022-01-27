@@ -1,9 +1,9 @@
 # About
 Мой финальный проект по сетевым технологиям за пятый семестр)
 <br>
-https://dendudko.github.io/FinalProject/main/index.html
+http://kokov1ch.ml/index.html
 # Installation
-1. Clone project from GitHub `https://github.com/dendudko/FinalProject`
+1. Clone project from GitHub `https://github.com/Kokov1ch/FrontFinalProject`
 2. Install dependencies from `package.json`
 (Smth like that `"C:\Program Files\nodejs\node.exe" "C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js" install —scripts-prepend-node-path=auto`)
 3. Build: `npm run build`
