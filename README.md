@@ -1,5 +1,5 @@
 # About
-Мой финальный проект по сетевым технологиям за пятый семестр)
+This is my final front end project at university
 <br>
 http://kokov1ch.ml/index.html
 # Installation
